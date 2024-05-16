@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Про міста</title>
+    <style>
+        body {
+            background-color: #ff66c2; /* рожевий фон */
+            text-align: center; /* центруємо весь текст */
+        }
+        
+        h1 {
+            background-color: #ff66c2; /* рожевий фон */
+            color: white; /* білий колір тексту */
+            padding: 10px; /* відступи для заголовку */
+            box-shadow: 2px 2px 5px #888888; /* тінь */
+            font-family: Arial, sans-serif; /* встановлюємо шрифт */
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* автоматично розраховуємо кількість колонок */
+            gap: 20px; /* відступ між елементами */
+            justify-items: center; /* вирівнюємо елементи по центру */
+        }
+
+        img {
+            width: 100%; /* 100% ширини контейнера */
+            height: auto; /* автоматична висота для збереження пропорцій */
+        }
+    </style>
+</head>
+<body>
+    <h1>Лазурний берег</h1>
+    
+    <div class="grid-container">
+        <div>
+            <h2>Монако</h2>
+            <p>Монако - князівство та мікрокраїна, розташована на південному сході Франції, на узбережжі Лазурного берега у кінцівці Франції, що омивається Середземним морем.</p>
+            <img src="https://www.rivieraloisirs.com//public//uploads/2020/04/Ville-de-Monaco-iStock-177779735.jpg" alt="Монако">
+        </div>
+        
+        <div>
+            <h2>Ніцца</h2>
+            <p>Ніцца - місто на півдні Франції, на Лазурному березі, відоме своїми прекрасними пляжами та архітектурою XVIII століття.</p>
+            <img src="https://www.moyaeuropa.com.ua/wp-content/uploads/2013/04/Nice-Ніцца-площа-Масена-10.jpg" alt="Ніцца">
+        </div>
+
+        <div>
+            <h2>Канни</h2>
+            <p>Канни - відоме курортне місто на Лазурному березі Франції, відоме своїм міжнародним кінофестивалем та прекрасними пляжами.</p>
+            <img src="https://images.france.fr/zeaejvyq9bhj/35ePRK79oNHwHF3nH80eYo/00cb02c6696122cf1061c3feed2e4f99/cannes.jpg?w=1120&h=490&q=70&fl=progressive&fit=fill" alt="Канни">
+        </div>
+    </div>
+</body>
+</html>
